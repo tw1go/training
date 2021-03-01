@@ -1,0 +1,26 @@
+$button-color: rgb(0, 173, 196);
+$text-color: rgb(187, 0, 0);
+$hover-color: rgb(0, 224, 86);
+@mixin flex-center($direction, $background-color) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+    background-color: $background-color;
+}
+
+.test {
+    @include flex-center(column, rgb(221, 221, 221));
+    color: rgb(0, 126, 52);
+    height: 100vh;
+    &__inside1 {
+        color: $text-color;
+        &:hover {
+            color: $hover-color;
+        }
+    }
+}
+
+button {
+    background: $button-color;
+}

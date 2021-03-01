@@ -1,0 +1,31 @@
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #dddddd;
+  color: #007e34;
+  height: 100vh;
+}
+
+.test__inside1 {
+  color: #bb0000;
+}
+
+.test__inside1:hover {
+  color: #00e056;
+}
+
+button {
+  background: #00adc4;
+}
+/*# sourceMappingURL=style.css.map */
