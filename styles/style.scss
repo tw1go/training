@@ -17,6 +17,7 @@ $hover-color: rgb(0, 224, 86);
         color: $text-color;
         &:hover {
             color: $hover-color;
+            background-color: aliceblue;
         }
     }
 }

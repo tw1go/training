@@ -23,6 +23,7 @@
 
 .test__inside1:hover {
   color: #00e056;
+  background-color: aliceblue;
 }
 
 button {
